@@ -1,0 +1,14 @@
+.figure-modal {
+  .modal-dialog {
+    display: table;
+    // margin: 0;
+    // padding: 0;
+    max-width: none;
+  }
+  .modal-header, .modal-footer {
+    border: none
+  }
+  .modal .close {
+    text-shadow: none;
+  }
+}

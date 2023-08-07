@@ -1,0 +1,33 @@
+{%- assign id = include.caption | remove: " " -%}
+
+<figure class="figure w-100" data-toggle="modal" data-target="#figure-modal-{{ id }}">
+  <img src="{{ include.image | relative_url }}" class="figure-img img-fluid rounded" alt="{{ include.alt | default: include.caption }}">
+  {%- if include.caption -%}
+    <figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>
+  {%- endif -%}
+</figure>
+
+<div class="figure-modal modal fade" id="figure-modal-{{ id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        {%- if include.caption -%}
+          <h5 class="modal-title w-100" id="exampleModalLabel">{{ include.caption }}</h5>
+        {%- endif -%}
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="{{ include.image | relative_url }}" class="figure-img img-fluid rounded" alt="{{ include.alt | default: include.caption }}">
+        <!-- {% include /elements/figure.html %} -->
+      </div>
+      <!-- <div class="modal-footer justify-content-center">
+        {%- if include.caption -%}
+          <figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>
+        {%- endif -%}
+      </div> -->
+    </div>
+  </div>
+</div>
+

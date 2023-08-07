@@ -1,0 +1,22 @@
+@import "bootstrap-4.6.2/scss/_variables.scss";
+
+[data-theme="light"] {
+  body {
+    background-color: #f0f1f3;
+  }
+
+  // Cards
+  .card {
+    border: none;
+  }
+
+  // Navbar
+  .navbar {
+    background-color: #f0f1f3;
+  }
+
+  // Modal
+  .modal-header, .modal-footer {
+    border: none
+  }
+}

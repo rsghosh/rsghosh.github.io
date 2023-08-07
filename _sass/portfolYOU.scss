@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+// Custom Fonts
+// @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables",
+        "bootstrap-4.6.2/scss/bootstrap.scss",
+        "404",
+        "base",
+        "blog",
+        "footer",
+        "figure-modal",
+        "landing",
+        "navbar",
+        "markdown",
+        "projects",
+        "timeline",
+        "autumn",
+        "theme",
+        "theme-light",
+        "theme-dark";
