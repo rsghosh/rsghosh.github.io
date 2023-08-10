@@ -1,5 +1,5 @@
 {%- assign images = include.images | strip | newline_to_br | split: '<br />' -%}
-{%- assign id = include.id | default: include.caption | remove: " " -%}
+{%- assign id = include.id | default: "carousel" | append: include.caption | remove: " " -%}
 
 <figure class="figure w-100">
   <div id="{{ id }}" class="carousel slide" data-ride="{{ include.ride | default: false }}" data-interval="{{ include.interval | default: 5000}}">
