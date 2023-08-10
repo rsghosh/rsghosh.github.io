@@ -9,6 +9,26 @@ description: A multimaterial system for FDM/FFF 3D printers with a focus on scal
 
 (add intro text)
 
+{% include elements/figure-modal.html image="/assets/images/trad_rack/render.png" alt="Trad Rack" %}
+
+## Design Process
+
+(text)
+
+{% include elements/figure-modal.html image="/assets/images/trad_rack/initial_sketch.png" caption="Initial Sketch" %}
+
+(cad screenshots, etc.)
+
+## First Prototype
+
+(text, pictures/video of initial version)
+
+## Further Improvements
+
+(more text, maybe lizard video? maybe mention the beta after this)
+
+## Videos
+
 {% include elements/video.html id="wKoVyXH0DT4" %}
 
 {% include elements/video.html id="hxGiJGAnO-A" %}
