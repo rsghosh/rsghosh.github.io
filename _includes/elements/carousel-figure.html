@@ -7,9 +7,17 @@
     <ol class="carousel-indicators">
       {% for image in images %}
         {%- if forloop.first -%}
-          <li data-target="#{{ id }}" data-slide-to="{{forloop.index0}}" class="active"></li>
+          <li data-target="#{{ id }}" data-slide-to="{{forloop.index0}}" class="active">
+            <div style="text-align:center">
+              <h5>{{forloop.index}}</h5>
+            </div>
+          </li>
         {%- else -%}
-          <li data-target="#{{ id }}" data-slide-to="{{forloop.index0}}"></li>
+          <li data-target="#{{ id }}" data-slide-to="{{forloop.index0}}">
+            <div style="text-align:center">
+              <h5>{{forloop.index}}</h5>
+            </div>
+          </li>
         {%- endif -%}
       {% endfor %}
     </ol>

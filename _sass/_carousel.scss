@@ -5,12 +5,29 @@
   overflow: hidden;
 }
 
+// .carousel-indicators li {
+//   // note: this makes the hitbox much smaller (matches visible area), need to fix?
+//   background-color: inherit;
+//   backdrop-filter: invert(100%);
+//   border: none;
+//   border-radius: 1.5px;
+//   margin-bottom: 10px;
+// }
+
+.carousel-indicators {
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
 .carousel-indicators li {
-  background-color: inherit;
-  backdrop-filter: invert(100%);
+  text-indent: 0;
+  height: 25px;
   border: none;
-  border-radius: 1.5px;
-  margin-bottom: 10px;
+  background-color: inherit;
+  h5 {
+    color: #fff;
+    mix-blend-mode: difference;
+  }
 }
 
 .carousel-control-prev,
