@@ -29,8 +29,8 @@ description: A multimaterial system for FDM/FFF 3D printers with a focus on scal
 
 ## Videos
 
-{% include elements/video-figure.html id="wKoVyXH0DT4" caption="Toolchange and Print Timelapse"%}
+{% include elements/video-figure.html id="wKoVyXH0DT4" provider="youtube" caption="Toolchange and Print Timelapse"%}
 
-{% include elements/video-figure.html id="hxGiJGAnO-A" caption="Standalone Demo"%}
+{% include elements/video-figure.html id="hxGiJGAnO-A" provider="youtube" caption="Standalone Demo"%}
 
 {% include elements/button.html link="https://github.com/Annex-Engineering/TradRack" text="GitHub Repository" block=true %}
