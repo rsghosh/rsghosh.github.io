@@ -22,7 +22,7 @@ expo.
 
 The following video shows how to use the zip tie installer:
 
-{% include elements/video-figure.html src="/assets/videos/output2.mp4" caption="Demonstration" %}
+{% include elements/video-figure.html src="/assets/videos/ME_S2023_F54_Video_Demo.mp4" caption="Demonstration" %}
 
 ## CAD
 
