@@ -20,7 +20,8 @@ expo.
 
 ## Demonstration
 
-The following video shows how to use the zip tie installer:
+In the following video, my teammate demonstrates how to use the zip tie
+installer:
 
 {% include elements/video-figure.html id="1FGn_M0SpABBWSmrCcECfglYL0JOBHeVG" provider="google drive" caption="Demonstration" %}
 

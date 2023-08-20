@@ -1,12 +1,15 @@
 <figure class="figure w-100">
   {%- if include.id -%}
+    {%- capture src -%}
+      {%- case include.provider -%}
+        {%- when "youtube" -%}
+          https://www.youtube.com/embed/{{ include.id }}
+        {%- when "google drive" -%}
+          https://drive.google.com/file/d/{{ include.id }}/preview
+      {%- endcase -%}
+    {%- endcapture -%}
     <div class="video" preload="auto" muted>
-    {%- case include.provider -%}
-    {%- when "youtube" -%}
-      <iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
-    {%- when "google drive" -%}
-      <iframe src="https://drive.google.com/file/d/{{ include.id }}/preview" frameborder="0" allowfullscreen></iframe>
-    {%- endcase -%}
+      <iframe src="{{ src }}" frameborder="0" allowfullscreen></iframe>
     </div>
   {%- else -%}
     <video controls>
