@@ -18,6 +18,12 @@ expo.
 
 {% include elements/figure-modal.html image="/assets/images/zip_tie_installer/zip_tie_installer.jpg" alt="Zip Tie Installer" %}
 
+## Demonstration
+
+The following video shows how to use the zip tie installer:
+
+{% include elements/video-figure.html src="/assets/videos/output2.mp4" caption="Demonstration" %}
+
 ## CAD
 
 I used SolidWorks to create the CAD model for the zip tie installer.
@@ -25,14 +31,14 @@ We iterated on individual parts several times, but the main 3 revisions of the
 overall device are shown below:
 
 {% capture carousel_images %}
-/assets/images/zip_tie_installer/cad/pdr/side_view_annotated.png
+/assets/images/zip_tie_installer/cad/pdr/side_view_annotated.png,PDR Side View
 /assets/images/zip_tie_installer/cad/cdr/side_view_annotated.png
 /assets/images/zip_tie_installer/cad/fdr/side_view_annotated.png
 /assets/images/zip_tie_installer/cad/pdr/magazine_annotated.png
 /assets/images/zip_tie_installer/cad/cdr/magazine_annotated.png
 /assets/images/zip_tie_installer/cad/fdr/magazine_annotated.png
 {% endcapture %}
-{% include elements/carousel-figure.html images=carousel_images ride="carousel" caption="Main Zip Tie Installer Revisions" %}
+{% include elements/carousel-mod.html images=carousel_images ride="carousel" caption="Main Zip Tie Installer Revisions" %}
 
 I used a top-down modeling approach to create the CAD model. This allowed me to
 make changes to the geometry of each mechanism quickly, while making sure all
@@ -91,8 +97,7 @@ shown below were installed that day by people attending the expo:
 {% endcapture %}
 {% include elements/carousel-figure.html images=carousel_images ride="carousel" caption="Senior Project Expo Setup" %}
 
-{% capture list_items %}
-Report and Supplemental Files,https://digitalcommons.calpoly.edu/mesp/701/
-Project Files,https://github.com/moffdude/Zip-Tie-Installer/
-{% endcapture %}
-{% include elements/list.html title="More Info" %}
+## More Info
+
+- [Report and Supplemental Files](https://digitalcommons.calpoly.edu/mesp/701/)
+- [Project Files](https://github.com/moffdude/Zip-Tie-Installer/)

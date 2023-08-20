@@ -11,11 +11,13 @@
 }
 
 .carousel-control-prev,
-.carousel-control-next,
-.carousel-control-prev:hover,
-.carousel-control-prev:focus,
-.carousel-control-next:hover,
-.carousel-control-next:focus {
+.carousel-control-next {
   color: #fff;
   mix-blend-mode: difference;
 }
+
+.carousel-caption {
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
