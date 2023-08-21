@@ -16,7 +16,58 @@
   mix-blend-mode: difference;
 }
 
-.carousel-caption {
-  color: #fff;
-  mix-blend-mode: difference;
+// .carousel-caption {
+//   color: #fff;
+//   mix-blend-mode: difference;
+// }
+
+// .carousel-mod {
+//   .carousel {
+//     padding-bottom: 4rem;
+//     overflow: hidden;
+//   }
+//   .carousel-caption { top: 100%; }
+//   .carousel-inner { overflow: visible; }
+//   .carousel-indicators { bottom: 4rem; }
+//   .carousel-control-next, .carousel-control-prev { bottom: 4rem; }
+// }
+
+// .carousel-mod {
+//   .carousel {
+//     padding-bottom: 2rem;
+//     overflow: hidden;
+//   }
+//   .carousel-caption {
+//     top: 100%;
+//     padding-top: 0;
+//   }
+//   .carousel-inner {
+//     overflow: visible;
+//   }
+//   .carousel-indicators { bottom: 2rem; }
+//   .carousel-control-next, .carousel-control-prev { bottom: 2rem; }
+// }
+
+.carousel-captioned {
+  .carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding-top: 0;
+    h5 {
+      font-size: 1rem;
+    }
+  }
+  .carousel-indicators {
+    
+  }
+  // ol.carousel-indicators {
+  //   position: absolute;
+  //   bottom: 0;
+  //   margin: 0;
+  //   left: 0;
+  //   right: 0;
+  //   width: auto;
+  // }
 }
+

@@ -32,14 +32,14 @@ We iterated on individual parts several times, but the main 3 revisions of the
 overall device are shown below:
 
 {% capture carousel_images %}
-/assets/images/zip_tie_installer/cad/pdr/side_view_annotated.png,PDR Side View
-/assets/images/zip_tie_installer/cad/cdr/side_view_annotated.png
-/assets/images/zip_tie_installer/cad/fdr/side_view_annotated.png
-/assets/images/zip_tie_installer/cad/pdr/magazine_annotated.png
-/assets/images/zip_tie_installer/cad/cdr/magazine_annotated.png
-/assets/images/zip_tie_installer/cad/fdr/magazine_annotated.png
+/assets/images/zip_tie_installer/cad/pdr/side_view_annotated.png,Full assembly: V1
+/assets/images/zip_tie_installer/cad/cdr/side_view_annotated.png,Full assembly: V2
+/assets/images/zip_tie_installer/cad/fdr/side_view_annotated.png,Full assembly: V3
+/assets/images/zip_tie_installer/cad/pdr/magazine_annotated.png,Magazine: V1
+/assets/images/zip_tie_installer/cad/cdr/magazine_annotated.png,Magazine: V2
+/assets/images/zip_tie_installer/cad/fdr/magazine_annotated.png,Magazine: V3
 {% endcapture %}
-{% include elements/carousel-mod.html images=carousel_images ride="carousel" caption="Main Zip Tie Installer Revisions" %}
+{% include elements/carousel-captioned.html images=carousel_images ride="carousel" caption="Main Zip Tie Installer Revisions" %}
 
 I used a top-down modeling approach to create the CAD model. This allowed me to
 make changes to the geometry of each mechanism quickly, while making sure all
@@ -48,17 +48,17 @@ that they still worked with each other. The main sketches I used to lay out the
 geometry of the jaw, tightener, and magazine are shown below.
 
 {% capture carousel_images %}
-/assets/images/zip_tie_installer/cad/jaw_layout.png
-/assets/images/zip_tie_installer/cad/jaw_servo_layout.png
-/assets/images/zip_tie_installer/cad/tightener_layout.png
-/assets/images/zip_tie_installer/cad/magazine_layout.png
-/assets/images/zip_tie_installer/cad/magazine_pusher_layout.png
-/assets/images/zip_tie_installer/cad/magazine_blocker_layout.png
-/assets/images/zip_tie_installer/cad/magazine_follower_layout.png
-/assets/images/zip_tie_installer/cad/magazine_follower_spring_rear_layout.png
-/assets/images/zip_tie_installer/cad/magazine_follower_spring_front_layout.png
+/assets/images/zip_tie_installer/cad/jaw_layout.png,Jaw overall layout
+/assets/images/zip_tie_installer/cad/jaw_servo_layout.png,Jaw servo layout
+/assets/images/zip_tie_installer/cad/tightener_layout.png,Tightener layout
+/assets/images/zip_tie_installer/cad/magazine_layout.png,Magazine overall layout
+/assets/images/zip_tie_installer/cad/magazine_pusher_layout.png,Magazine pusher layout
+/assets/images/zip_tie_installer/cad/magazine_blocker_layout.png,Magazine blocker layout
+/assets/images/zip_tie_installer/cad/magazine_follower_layout.png,Magazine follower layout
+/assets/images/zip_tie_installer/cad/magazine_follower_spring_rear_layout.png,Magazine follower rear spring layout
+/assets/images/zip_tie_installer/cad/magazine_follower_spring_front_layout.png,Magazine follower front spring layout
 {% endcapture %}
-{% include elements/carousel-figure.html images=carousel_images ride="carousel" caption="Layout Sketches" %}
+{% include elements/carousel-captioned.html images=carousel_images ride="carousel" caption="Layout Sketches" %}
 
 ## Prototyping and Testing
 
