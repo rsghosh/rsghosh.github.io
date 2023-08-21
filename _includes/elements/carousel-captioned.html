@@ -1,5 +1,12 @@
 {%- assign images = include.images | strip | newline_to_br | split: '<br />' -%}
 {%- assign id = include.id | default: "carousel" | append: include.caption | remove: " " -%}
+{%- assign mobile_captions = include.mobile_captions | default: "true" -%}
+
+{%- if mobile_captions == "true" -%}
+  {%- assign caption_extra_classes = "" -%}
+{%- else -%}
+  {%- assign caption_extra_classes = " d-none d-md-block" -%}
+{%- endif -%}
 
 <div class="carousel-captioned">
   <figure class="figure w-100">
@@ -22,7 +29,7 @@
             <div class="carousel-item active">
               <img src="{{ image_object[0] }}" class="figure-img img-fluid rounded">
               {%- if image_object.size > 1 -%}
-                <div class="carousel-caption d-none d-md-block mb-4">
+                <div class="carousel-caption{{ caption_extra_classes }} mb-4">
                   <h5>{{ image_object[1] | replace: '\n', '<br />' }}</h5>
                 </div>
               {%- endif -%}
@@ -31,7 +38,7 @@
             <div class="carousel-item">
               <img src="{{ image_object[0] }}" class="figure-img img-fluid rounded">
               {%- if image_object.size > 1 -%}
-                <div class="carousel-caption d-none d-md-block mb-4">
+                <div class="carousel-caption{{ caption_extra_classes }} mb-4">
                   <h5>{{ image_object[1] | replace: '\n', '<br />' }}</h5>
                 </div>
               {%- endif -%}
