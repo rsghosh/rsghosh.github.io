@@ -1,6 +1,6 @@
 ---
 name: Frostbite Toolhead
-tools: [SolidWorks]
+tools: [SolidWorks, 3D Printing]
 image: /assets/images/k3/frostbite.png
 description: Toolhead for the K3 printer with increased part cooling capacity.
 ---

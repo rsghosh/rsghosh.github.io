@@ -1,6 +1,6 @@
 ---
 name: Zip Tie Installer
-tools: [SolidWorks]
+tools: [SolidWorks, 3D Printing]
 image: /assets/images/zip_tie_installer/zip_tie_installer.jpg
 description: Low-cost, rechargeable handheld device for automated zip tie installation (Mechanical Engineering senior project).
 ---

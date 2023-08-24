@@ -1,6 +1,6 @@
 ---
 name: K3 Nozzle Wiper
-tools: [SolidWorks]
+tools: [SolidWorks, 3D Printing]
 image: /assets/images/k3/nozzle_wiper.png
 description: Nozzle wiper and purge bucket for the K3 printer.
 ---
