@@ -28,7 +28,10 @@ the silicone sheet to raise far enough to clean the entire tip of the nozzle,
 but lower far enough when not in use to avoid colliding with the toolhead during
 a print.
 
-The following video shows the nozzle wiper and purge bucket in action:
+The following video shows a side view of the nozzle wiper and purge bucket in
+action. The printer's toolhead moves the nozzle over the bucket, extrudes
+material into the bucket, and then moves across the orange silicone sheet to
+clean the nozzle:
 
 {% include elements/video-figure.html id="1_mkQJJCB5xfOJh61v7KXC9KdCQPuyQVy" provider="google drive" caption="Nozzle Purge  and Wipe Routine" %}
 

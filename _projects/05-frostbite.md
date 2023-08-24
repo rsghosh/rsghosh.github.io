@@ -7,7 +7,7 @@ description: Toolhead for the K3 printer with increased part cooling capacity.
 
 # Frostbite Toolhead
 
-I designed a fan duct for the [K3 printer](/projects/02-k3) that utilizes a 4028
+I designed a fan duct for the [K3 printer](/projects/02-k3) that uses a 4028
 axial server fan for increased part cooling over the previous dual 4010 blower
 fan option, as well as a new toolhead to fit this cooling solution.
 
