@@ -7,8 +7,9 @@ weight: 3
 
 # About Me
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-a mechanical and software engineer with a passion for designing innovative
+Hi I am **{{ site.author.name }}**
+
+I am a mechanical and software engineer with a passion for designing innovative
 solutions that integrate mechanical components, electronics, and software.
 
 I graduated from California Polytechnic State University, San Luis Obispo in
