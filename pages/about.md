@@ -21,31 +21,38 @@ printers for rapid prototyping and iterative development.
 
 ## Background
 
-I have always been interested in building things, particularly in fields such as
-robotics that involve moving components...(mention robotic team stuff, solidworks, etc.)
+I have always been interested in building things that move. From 4th grade
+through high school, I participated in robotics teams including FIRST Lego
+League, Botball, and FIRST Robotics Competition. In high school I learned to use
+SolidWorks, which I have been using for about 7 years now for projects both
+inside and outside of school. I also learned to use Fusion 360 so I could use it
+at home to design my first micro racing drone for fun.
 
-During my first year of college, I designed a micro racing drone frame as a
+<!-- I have always been interested in building things, particularly in fields such as
+robotics that involve moving components...(mention robotic team stuff, solidworks, etc.) -->
+
+During my first year of college, I designed a 2nd micro racing drone as a
 personal project. I bought and assembled a 3D printer (the Prusa MK3S) so that I
 could print the camera and antenna mounts out of TPU and do a test print of the
 other frame parts before getting them cut from a carbon fiber sheet.
 
 After spending some time with the printer, I started looking into ways to
 improve the speed and print quality. I learned about
-[Klipper](https://www.klipper3d.org/), an alternative firmware that had better
-motion planning and other useful features. However, the Prusa MK3S still could
-not run with very high acceleration values since it is a "bedslinger" (it moves
-the entire mass of the bed when moving in the y-axis). I started looking at
-other printer designs and learned of [Annex Engineering](annex.engineering).
-Their K-series printers focused on speed while maintaining high print quality,
-with specific design decisions to increase performance such as using
-shorter and wider belts to increase rigidity.
+[Klipper](https://www.klipper3d.org/), an alternative firmware for 3D printers
+that had better motion planning and other useful features. However, the Prusa
+MK3S still could not run with very high acceleration values since it is a
+"bedslinger" (it moves the entire mass of the bed when moving in the y-axis). I
+started looking at other printer designs and learned of
+[Annex Engineering](annex.engineering). Annex's K-series printers focused on
+speed while maintaining high print quality, with specific design decisions to
+increase performance such as using shorter and wider belts to increase rigidity.
 
-Annex's [K3 printer](/projects/02-k3) reached closed beta in November 2020, and
-I joined as a beta tester. I contributed feedback and also designed a new
-toolhead for the printer, which became the official toolhead. I was added to the
-Annex development team in December. I have continued as one of the main devs
-working on K3, further improving the toolhead and helping with mechanical design
-in a few other areas as well.
+Annex started the closed beta for their [K3 printer](/projects/02-k3) in
+November 2020, and I joined as a beta tester. I contributed feedback and also
+designed a new toolhead for the printer, which became the official toolhead. I
+was added to the Annex development team in December. I have continued as one of
+the main devs working on K3, further improving the toolhead and helping with
+mechanical design in a few other areas as well.
 
 Besides K3, my other main project with Annex Engineering so far is
 [Trad Rack](/projects/01-trad-rack). When I originally bought my Prusa MK3S, I 
@@ -84,6 +91,11 @@ pushing extruders to be lighter by experimenting with nema14 motors on the ascen
 - mention lego GBC?
 - mention cadence internship?
 - mention senior project?
+
+- rc car racing -> drone racing *as a hobby*
+    - before: tie into this after talking about how I like building stuff that moves
+    - after: tie into 3D printer (as it is already)
+- 
 
 ## Skills
 
