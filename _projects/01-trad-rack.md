@@ -2,7 +2,7 @@
 name: Annex Trad Rack
 tools: [SolidWorks, Python, Blender, 3D Printing]
 image: /assets/images/trad_rack/render.png
-description: A multimaterial system for FDM/FFF 3D printers with a focus on scalability at low cost.
+description: Multimaterial system for FDM/FFF 3D printers with a focus on scalability at low cost.
 ---
 
 # Annex Trad Rack
@@ -76,25 +76,34 @@ use):
 
 {% include elements/video-figure.html id="hxGiJGAnO-A" provider="youtube" caption="Standalone Demo"%}
 
+The brackets on the bottom of Trad Rack are used to attach it to a printer.
+I mounted Trad Rack to the side of my [K3 printer](/projects/02-k3) as shown
+below, with the bowden tube feeding into the chamber
+from the back:
+
+{% include elements/figure-modal.html image="/assets/images/trad_rack/trad_rack_on_k3.png" caption="Trad Rack Mounted to my K3 Printer" %}
+
 ## Further Progress
 
 I wrote a module for the
 [Klipper 3D printer firmware](https://www.klipper3d.org/) in Python to control
 Trad Rack. Then I went back and forth between doing multicolor test prints with
 Trad Rack, making changes in CAD, and reprinting parts to fix issues I
-encountered. For example, the image below shows several iterations of Trad
-Rack's middle carriage, which houses a filament sensor and connects to a belt
-for moving the selector between filaments:
+encountered. For example, the image below shows a few iterations of Trad Rack's
+middle carriage, which houses a filament sensor and connects to a belt for
+moving the selector between filaments:
 
 {% include elements/figure-modal.html image="/assets/images/trad_rack/middle_carriage_iterations.jpg" caption="Middle Carriage Iterations" %}
 
 Once most of the issues were resolved, I recorded Trad Rack printing a few
 3-color lizards as a demonstration. We started a closed beta to get more testing
-on Trad Rack and make further improvements before a public release. The closed
-beta is ongoing and currently has about 500 testers.
+on Trad Rack and to make further improvements before a public release. The
+closed beta is ongoing and currently has about 500 beta testers.
 
 The video below shows Trad Rack and my [K3 printer](/projects/02-k3) completing
-a filament change, as well as a timelapse of the lizard print:
+a filament change from silver to orange, as well as a timelapse of the lizard
+print. In the top view of the printer, you can see trad rack's selector moving
+up or down the screen whenever a filament change occurs:
 
 {% include elements/video-figure.html id="wKoVyXH0DT4" provider="youtube" caption="Toolchange and Print Timelapse"%}
 
