@@ -8,8 +8,8 @@
           https://drive.google.com/file/d/{{ include.id }}/preview
       {%- endcase -%}
     {%- endcapture -%}
-    <div class="video" preload="auto" muted>
-      <iframe src="{{ src }}" frameborder="0" allowfullscreen></iframe>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="{{ src }}" allowfullscreen></iframe>
     </div>
   {%- else -%}
     <video controls>
