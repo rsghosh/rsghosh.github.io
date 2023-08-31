@@ -40,9 +40,9 @@ that had better motion planning and other useful features. However, the Prusa
 was still held back by its “bedslinger” design - it moves the entire mass of the
 bed instead of the print head for y-axis motion, so it could not run with very
 high acceleration values. My quest for faster and better led me to
-[Annex Engineering](https://annex.engineering). Annex’s K-series printers focused on
-speed without sacrificing high print quality by making specific design decisions
-like using shorter and wider belts to increase rigidity.
+[Annex Engineering](https://annex.engineering). Annex’s K-series printers
+focused on speed without sacrificing high print quality by making specific
+design decisions like using shorter and wider belts to increase rigidity.
 
 Annex started the closed beta for their [K3 printer](/projects/02-k3) in
 November 2020, and I enthusiastically joined as a beta tester. I contributed
@@ -64,5 +64,7 @@ which is focused on scalability (adding lots of filaments) at low cost.
 ## Skills
 
 - CAD - SolidWorks, Fusion 360
-- Prototyping using laser cutter and 3D printer, basic soldering, electrical and mechanical assembly, rendering images with Blender
-- Programming - Python, Java, C, C++, MATLAB, Simulink, Git/GitHub, Perforce, Review Board
+- Prototyping using laser cutter and 3D printer, basic soldering, electrical and
+  mechanical assembly, rendering images with Blender
+- Programming - Python, Java, C, C++, MATLAB, Simulink, Git/GitHub, Perforce,
+  Review Board
