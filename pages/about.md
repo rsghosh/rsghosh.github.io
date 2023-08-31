@@ -40,7 +40,7 @@ that had better motion planning and other useful features. However, the Prusa
 was still held back by its “bedslinger” design - it moves the entire mass of the
 bed instead of the print head for y-axis motion, so it could not run with very
 high acceleration values. My quest for faster and better led me to
-[Annex Engineering](annex.engineering). Annex’s K-series printers focused on
+[Annex Engineering](https://annex.engineering). Annex’s K-series printers focused on
 speed without sacrificing high print quality by making specific design decisions
 like using shorter and wider belts to increase rigidity.
 

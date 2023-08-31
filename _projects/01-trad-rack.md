@@ -27,7 +27,7 @@ deviates from this sketch, but it retains some aspects:
 {% include elements/figure-modal.html image="/assets/images/trad_rack/initial_sketch.png" caption="Initial Sketch" %}
 
 I discussed this idea with other members of the
-[Annex Engineering](http://annex.engineering) team, and I started on the CAD:
+[Annex Engineering](https://annex.engineering) team, and I started on the CAD:
 
 {% capture carousel_images %}
 /assets/images/trad_rack/v1_01.png
