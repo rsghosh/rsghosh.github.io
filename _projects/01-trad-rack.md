@@ -15,6 +15,8 @@ easily expanded using low-cost modules without any disassembly.
 
 {% include elements/figure-modal.html image="/assets/images/trad_rack/render.png" alt="Trad Rack" %}
 
+[TL;DR: video of Trad Rack in action](#trad-rack-in-action)
+
 ## Design Process
 
 I started the design by putting my thoughts into a sketch. Existing
@@ -99,6 +101,8 @@ Once most of the issues were resolved, I recorded Trad Rack printing a few
 3-color lizards as a demonstration. We started a closed beta to get more testing
 on Trad Rack and to make further improvements before a public release. The
 closed beta is ongoing and currently has about 500 beta testers.
+
+<div id="trad-rack-in-action"></div>
 
 The video below shows Trad Rack and my [K3 printer](/projects/02-k3) completing
 a filament change from silver to orange, as well as a timelapse of the lizard
