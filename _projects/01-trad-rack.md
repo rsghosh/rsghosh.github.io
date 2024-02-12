@@ -26,7 +26,7 @@ number of filaments, I initially proposed using a low-cost drive gear for each
 filament, with a single idler bearing for the entire system. The final design
 deviates from this sketch, but it retains some aspects:
 
-{% include elements/figure-modal.html image="/assets/images/trad_rack/initial_sketch.png" caption="Initial Sketch" %}
+{% include elements/figure-modal.html image="/assets/images/trad_rack/initial_sketch.jpg" caption="Initial Sketch" %}
 
 I discussed this idea with other members of the
 [Annex Engineering](https://annex.engineering) team, and I started on the CAD:
@@ -99,8 +99,7 @@ moving the selector between filaments:
 
 Once most of the issues were resolved, I recorded Trad Rack printing a few
 3-color lizards as a demonstration. We started a closed beta to get more testing
-on Trad Rack and to make further improvements before a public release. The
-closed beta is ongoing and currently has about 500 beta testers.
+on Trad Rack and to make further improvements before a public release.
 
 <div id="trad-rack-in-action"></div>
 
@@ -119,5 +118,17 @@ The completed print is shown below:
 /assets/images/trad_rack/lizards_03.jpg
 {% endcapture %}
 {% include elements/carousel-figure.html images=carousel_images ride="carousel" caption="Lizard Print" %}
+
+## Beta Testing
+
+We had about 500 beta testers in the closed beta. Throughout the closed beta, I
+made several revisions to the mechanical design and many changes to the software
+based on user feedback. I also wrote documentation to cover setup steps, wiring,
+and software installation and configuration. I collaborated with another member
+of the Annex team on an assembly manual as well.
+
+In December 2023, after fixing the main remaining issues and updating the
+documentation to cover common questions, we concluded the closed beta and
+transitioned to a public beta.
 
 {% include elements/button.html link="https://github.com/Annex-Engineering/TradRack" text="GitHub Repository" block=true %}
