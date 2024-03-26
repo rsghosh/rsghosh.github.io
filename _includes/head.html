@@ -37,4 +37,8 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
+  {%- if jekyll.environment == 'production' -%}
+    <script defer src="https://analytics.us.umami.is/script.js" data-website-id="9e100cf7-3fcc-42a0-be18-ccac72d65f94"></script>
+  {%- endif -%}
+
 </head>
