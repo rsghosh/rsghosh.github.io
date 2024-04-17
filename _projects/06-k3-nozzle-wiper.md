@@ -35,4 +35,4 @@ clean the nozzle:
 
 {% include elements/video-figure.html id="1_mkQJJCB5xfOJh61v7KXC9KdCQPuyQVy" provider="google drive" caption="Nozzle Purge  and Wipe Routine" %}
 
-{% include elements/button.html link="https://github.com/Annex-Engineering/Gasherbrum-K3" text="K3 GitHub Repository" block=true %}
+{% include elements/button-github.html link="https://github.com/Annex-Engineering/Gasherbrum-K3" block=true %}

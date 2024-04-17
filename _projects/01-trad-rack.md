@@ -15,6 +15,8 @@ easily expanded using low-cost modules without any disassembly.
 
 {% include elements/figure-modal.html image="/assets/images/trad_rack/render.png" alt="Trad Rack" %}
 
+{% include elements/button-github.html link="https://github.com/Annex-Engineering/TradRack" size="sm" %}
+
 [TL;DR: video of Trad Rack in action](#trad-rack-in-action)
 
 ## Design Process
@@ -131,4 +133,9 @@ In December 2023, after fixing the main remaining issues and updating the
 documentation to cover common questions, we concluded the closed beta and
 transitioned to a public beta.
 
-{% include elements/button.html link="https://github.com/Annex-Engineering/TradRack" text="GitHub Repository" block=true %}
+## Current Status
+
+As of March 2024, Trad Rack has reached Release 1 status and is available on
+GitHub.
+
+{% include elements/button-github.html link="https://github.com/Annex-Engineering/TradRack" block=true %}

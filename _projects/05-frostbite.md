@@ -18,4 +18,4 @@ fan option, as well as a new toolhead to fit this cooling solution.
 {% endcapture %}
 {% include elements/carousel-figure.html images=carousel_images ride="carousel" caption="Frostbite Toolhead" %}
 
-{% include elements/button.html link="https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/K3/annex_dev-Frostbite_toolhead" text="GitHub Repository" block=true %}
+{% include elements/button-github.html link="https://github.com/Annex-Engineering/Annex-Engineering_User_Mods/tree/main/Printers/K3/annex_dev-Frostbite_toolhead" block=true %}
